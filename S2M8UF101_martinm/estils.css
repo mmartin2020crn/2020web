@@ -1,0 +1,64 @@
+body {
+  background-color:skyblue;
+  margin: 0;
+  font-family: arial;
+}
+div{
+  height: 50px;
+}
+
+h1, p {
+width: 350px;
+padding: 25px;
+background-color: pink;
+}
+
+p {
+  padding:40px;
+}
+#primera {
+  height: 40px;
+}
+
+#segona {
+  height: 550px;
+}
+
+
+#tercera {
+  height: 641px;
+}
+
+#quarta {
+  height: 500px;
+}
+
+#cinquena {
+  height: 550px;
+}
+
+#sisena {
+  height: 550px;
+}
+
+#setena {
+height: 643px;
+}
+
+#vuitena {
+  height: 200px;
+}
+
+.blanca {
+background-color: #FFF;
+}
+
+.verda {
+background-color: #6C3;
+}
+.fosca{
+  background-color: #333;
+}
+.clara{
+  background-color: #EEECEE;
+}
