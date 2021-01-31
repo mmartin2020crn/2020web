@@ -1,0 +1,50 @@
+div{
+  background-color: #BDB78B;
+  height: 800px;
+  width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/*   background-image: radial-gradient(blue, turquoise) */
+
+p{
+  height: 100px;
+  width: 100px;
+  margin: 0;
+  background-color: red;
+  float:left;
+}
+
+.parell {
+  background-color: white;
+}
+
+.imparell {
+  background-color: black;
+}
+
+b{
+  display: block;
+  width: 80px;
+  height: 80px;
+  background-color: red;
+  border-radius: 50%;
+  margin: 10px;
+  background-size: 200% 200%;
+  background-image: radial-gradient(purple, black);
+  background-position: -50px -50px;
+}
+
+b:hover {
+  position: relative;
+  top: 100px;
+}
+
+.imparell b {
+  background-image: radial-gradient(red, black);
+}
+
+.imparell:nth-child(2n) b {
+  background-image: radial-gradient(pink, black);
+}

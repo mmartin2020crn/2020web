@@ -1,0 +1,125 @@
+body {
+  background-color:skyblue;
+  margin: 0;
+  font-family: arial;
+}
+div{
+  height: 50px
+  background-repeat: no-repeat;
+  background-position: 400px;
+}
+li {
+  display: inline-block;
+  background-color: #C39BD3;
+  height: 20px;
+  margin: 0;
+  padding: 5px;
+  line height: 30px;
+}
+
+li:hover{
+  background-color: yellowgreen;
+}
+a {
+  text-decoration: none;
+}
+h1, p {
+width: 350px;
+padding: 25px;
+}
+h1{
+  margin: 0;
+}
+p {
+  margin: 0;
+  padding: 0 25px;
+
+}
+a {
+  text-align: center;
+}
+#primera {
+  height: 40px;
+}
+
+#segona {
+  height: 550px;
+  background-image: url(img/img-hero-full-list.png);
+  background-repeat: no-repeat;
+  background-position: 400px;
+}
+
+
+#tercera {
+  height: 641px;
+  background-image: url(img/allinone.jpg);
+  background-repeat: no-repeat;
+  background-position: 400px;
+}
+
+#quarta {
+  height: 500px;
+  background-image: url(img/curator-short.png);
+  background-repeat: no-repeat;
+  background-position: 400px;
+}
+
+#cinquena {
+  height: 550px;
+  background-image: url(img/img-hero-full-list.png);
+  background-repeat: no-repeat;
+  background-position: 400px;
+}
+
+#sisena {
+  height: 550px;
+  background-image: url(img/mobile-share.png);
+  background-repeat: no-repeat;
+  background-position: 400px;
+}
+
+#setena {
+height: 643px;
+background-image: url(img/anywhere.png);
+background-repeat: no-repeat;
+background-position: 400px;
+}
+
+#vuitena {
+  height: 200px;
+  text-align: center;
+}
+
+#boto {
+  background-color: green;
+  height:70px;
+  width:70px;
+  position: fixed;
+  bottom: 50px;
+  right: 100px;
+  border-radius: 35px;
+  box-shadow: 5px 5px 10px black;
+  text-align: center;
+  line-height: 70px;
+  font-size: 60px;
+  background-image: url(img/sources.png);
+  background-position: -225px -19px;
+  color: white;
+}
+
+img {
+  padding: 25px;
+}
+.blanca {
+background-color: #E8DAEF;
+}
+
+.verda {
+background-color: #D1F2EB;
+}
+.fosca{
+  background-color: #D6EAF8;
+}
+.clara{
+  background-color: #D5F5E3;
+}
