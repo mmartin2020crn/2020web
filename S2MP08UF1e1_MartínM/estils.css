@@ -1,0 +1,48 @@
+body {
+  background-color: #222;
+  font-family: Helvetica;
+}
+
+ul {
+  height: 3.125rem;
+  background-color: black;
+  margin: 0px;
+}
+
+li {
+  display: inline-block;
+  height: 20px;
+  margin-top: 20px;
+  padding: 5px;
+  line height: 30px;
+  color: #ccc;
+}
+
+img {
+  border-radius: 5px;
+  padding-left: 20px;
+  width: 43,5%;
+}
+
+img:hover {
+  opacity: 50%;
+}
+h1 {
+  color: #fff;
+  font-size: 1.375rem;
+  margin: 20px;
+}
+
+.titulos {
+  margin: 20px;
+  color: #ccc;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+.any {
+  margin: 20px;
+  color: #ccc;
+  font-size: 0.688rem;
+  font-weight: bold;
+}
