@@ -1,0 +1,200 @@
+div {
+  margin: 5rem;
+}
+
+.cara {
+  position: absolute;
+  background-color: #ffe6cc;
+  height: 38rem;
+  width: 30rem;
+  border-radius: 26% 26% 45% 45%;
+  top: 2rem;
+}
+
+.ulls .ull1 {
+  position: relative;
+  background-color: white;
+  border-radius: 0rem 6rem;
+  transform: rotate(135deg);
+  width: 6rem;
+  height: 6rem;
+  top: 8rem;
+}
+
+.ulls .ull2 {
+  position: relative;
+  background-color: white;
+  border-radius: 0rem 6rem;
+  transform: rotate(135deg);
+  width: 6rem;
+  height: 6rem;
+  bottom: 3rem;
+  left: 14rem;
+}
+
+.iris .iris1 {
+  position: relative;
+  background-color: green;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+  bottom: 12.8rem;
+  left: 1.2rem;
+}
+
+.iris .iris2 {
+  position: relative;
+  background-color: green;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+  bottom: 21.3rem;
+  left: 15.3rem;
+}
+
+.pupila .pupila1 {
+  position: relative;
+  background-color: black;
+  border-radius: 50%;
+  width: 1.7rem;
+  height: 1.7rem;
+  bottom: 29rem;
+  left: 2.1rem;
+}
+
+.pupila .pupila2 {
+  position: relative;
+  background-color: black;
+  border-radius: 50%;
+  width: 1.7rem;
+  height: 1.7rem;
+  bottom: 35.7rem;
+  left: 16.2rem;
+}
+
+.celles .cella1 {
+  position: relative;
+  background-color: black;
+  border-radius: 22%;
+  width: 9rem;
+  height: 3rem;
+  bottom: 47rem;
+  right: 1rem;
+}
+
+.celles .cella2 {
+  position: relative;
+  background-color: black;
+  border-radius: 22%;
+  width: 9rem;
+  height: 3rem;
+  bottom: 55rem;
+  left: 13rem;
+}
+.parches .parche1 {
+  position: relative;
+  background-color: #ffe6cc;
+  border-radius: 18%;
+  width: 9rem;
+  height: 2rem;
+  bottom: 61.5rem;
+  right: 1rem;
+}
+
+.parches .parche2 {
+  position: relative;
+  background-color: #ffe6cc;
+  border-radius: 18%;
+  width: 9rem;
+  height: 2rem;
+  bottom: 68.5rem;
+  left: 13rem;
+}
+
+.boca {
+  position: relative;
+  background-color: #ffad99;
+  width: 8rem;
+  height: 1rem;
+  bottom: 60rem;
+  left: 11rem;
+  border-radius: 0 0 40% 40%;
+}
+
+.orejas .oreja1 {
+  position: relative;
+  background-color: #ffe6cc;
+  clip-path: ellipse(25% 40% at 50% 50%);
+  height: 12rem;
+  width: 12rem;
+  bottom: 18rem;
+  right: 1rem;
+}
+
+.orejas .oreja2 {
+  position: relative;
+  background-color: #ffe6cc;
+  clip-path: ellipse(25% 40% at 50% 50%);
+  height: 12rem;
+  width: 12rem;
+  bottom: 34rem;
+  right: 33rem;
+}
+
+.cabello .cabello1 {
+  position: relative;
+  background-color: #86592d;
+  border-radius: 0rem 20rem;
+  transform: rotate(0deg);
+  height: 20rem;
+  width: 20rem;
+  bottom: 68rem;
+  right: 11rem;
+}
+
+.cabello .cabello2 {
+  position: relative;
+  background-color: #86592d;
+  border-radius: 0rem 20rem;
+  transform: rotate(90deg);
+  height: 20rem;
+  width: 20rem;
+  bottom: 93rem;
+  right: 30rem;
+}
+
+.nariz {
+  position: relative;
+  background-color: #ffad99;
+  border-radius: 40%;
+  height: 1rem;
+  width: 2rem;
+  bottom: 91rem;
+  right: 7rem;
+}
+
+.pelolargo {
+  position: relative;
+  background-color: #86592d;
+  height: 5rem;
+  width: 38rem;
+  right: 3.7rem;
+  top: 16rem;
+}
+
+.pelolargo .pelolargo1 {
+  position: relative;
+  background-color: #86592d;
+  border-radius: 0 0 10% 10%;
+  height: 25rem;
+  width: 38rem;
+  right: 5rem;
+  top: 5rem;
+}
+
+.ulleres ulleres1 {
+  position: relative;
+  background-color: red;
+  height: 10rem;
+  width: 10rem;
+}
