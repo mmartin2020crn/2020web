@@ -1,0 +1,239 @@
+/*
+Theme Name: Classe AGS2
+Theme URI: http://github.com/Marina
+Author: Marina
+
+Description: Plantilla de classe
+Version: 0.1
+License: Copyleft
+Tags:  classe, mòdul, web, interessant, cotilleos
+*/
+@font-face {
+    font-family: 'Melanie Roselyn';
+    src: url('fonts/MelanieRoselynRegular.eot');
+    src: url('fonts/MelanieRoselynRegular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/MelanieRoselynRegular.woff2') format('woff2'),
+        url('fonts/MelanieRoselynRegular.woff') format('woff'),
+        url('fonts/MelanieRoselynRegular.ttf') format('truetype'),
+        url('fonts/MelanieRoselynRegular.svg#MelanieRoselynRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Myrlissa - Personal Use';
+    src: url('fonts/MyrlissaPersonalUse.eot');
+    src: url('fonts/MyrlissaPersonalUse.eot?#iefix') format('embedded-opentype'),
+        url('fonts/MyrlissaPersonalUse.woff2') format('woff2'),
+        url('fonts/MyrlissaPersonalUse.woff') format('woff'),
+        url('fonts/MyrlissaPersonalUse.ttf') format('truetype'),
+        url('fonts/MyrlissaPersonalUse.svg#MyrlissaPersonalUse') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+  h1 {
+  color: #D2B4DE;
+  font-family: 'Melanie Roselyn';
+  text-transform: uppercase;
+  font-size: 65px; font-weight: normal;
+  line-height: 48px; margin: 0 0 50px;
+  text-align: center;
+  text-shadow: 1px 1px 2px #082b34;
+  animation: bounce;
+  }
+
+
+  li{
+    display:block;
+    width: 14rem;
+    height: 14rem;
+    margin: 1rem;
+    background-color:lime;
+    float:left;
+    clip-path: circle(50% at 50% 50%);
+  }
+  body{
+    line-height:13rem;
+    text-align:center;
+    font-size:1.8rem;
+  }
+
+  a {
+    display: block;
+    float:left;
+    position: relative;
+    text-decoration: none;
+    color: #730099;
+    font-family: 'Myrlissa - Personal Use';
+    border-top: 7rem;
+    font-size: 5rem;
+  }
+
+
+#a00:hover {
+background-image: url(img/inici.png);
+background-size: 150%;
+background-position: top;
+}
+
+#a01:hover {
+background-image: url(img/feedly.png);
+background-size: 120%;
+}
+
+#a03:hover {
+background-image: url(img/floats.png);
+background-size: 120%;
+background-position: center;
+}
+
+#a03b:hover {
+background-image: url(img/floats2.png);
+background-size: 124%;
+background-position: bottom;
+}
+
+#a03c:hover {
+background-image: url(img/floats3.png);
+background-size: 125%;
+background-position: bottom;
+}
+
+#a04:hover {
+background-image: url(img/escacs.png);
+background-size: 120%;
+background-position: center;
+}
+
+#a05:hover {
+background-image: url(img/responsive.png);
+background-size: 120%;
+}
+
+#b01:hover {
+background-image: url(img/banner.png);
+background-size: 160%;
+background-position: center;
+}
+
+#b02:hover {
+background-image: url(img/bus.png);
+background-size: 110%;
+background-position: center;
+}
+
+#b03:hover {
+background-image: url(img/cotxes.png);
+background-size: 150%;
+background-position: center;
+}
+
+#b04:hover {
+background-image: url(img/vambes.png);
+background-size: 120%;
+background-position: center;
+}
+
+#b05:hover {
+background-image: url(img/diapos.png);
+background-size: 120%;
+background-position: center;
+}
+
+#b05b:hover {
+background-image: url(img/diapos2.png);
+background-size: 150%;
+background-position: center;
+}
+
+#b06:hover {
+background-image: url(img/octavo.png);
+background-size: 150%;
+background-position: center;
+}
+
+#a00 {
+background-image: url(img/fondo2.jfif);
+background-size:150%;
+background-repeat: no-repeat;
+}
+
+#a01 {
+  background-image: url(img/fondo3.jfif);
+  background-size:120%;
+  background-repeat: no-repeat;
+}
+
+#a03 {
+  background-image: url(img/fondo4.png);
+  background-size:130%;
+  background-repeat: no-repeat;
+}
+
+#a03b {
+  background-image: url(img/fondo5.jfif);
+  background-size:100%;
+  background-repeat: no-repeat;
+}
+
+#a03c {
+  background-image: url(img/fondo6.jfif);
+  background-size:150%;
+  background-repeat: no-repeat;
+}
+
+#a04 {
+  background-image: url(img/fondo7.jfif);
+  background-size:150%;
+  background-repeat: no-repeat;
+}
+
+#a05 {
+  background-image: url(img/fondo8.jfif);
+  background-size:150%;
+  background-repeat: no-repeat;
+}
+
+
+
+#b01 {
+  background-image: url(img/fondo1.jfif);
+  background-size:150%;
+  background-repeat: no-repeat;
+}
+
+#b02 {
+  background-image: url(img/fondo9.jfif);
+  background-size:120%;
+  background-repeat: no-repeat;
+}
+
+#b03 {
+  background-image: url(img/fondo10.jfif);
+  background-size:150%;
+  background-repeat: no-repeat;
+}
+#b04 {
+  background-image: url(img/fondo11.jfif);
+  background-size:130%;
+  background-repeat: no-repeat;
+}
+
+#b05 {
+  background-image: url(img/fondo12.jfif);
+  background-size:150%;
+  background-repeat: no-repeat;
+}
+
+#b05b {
+  background-image: url(img/fondo13.png);
+  background-size:150%;
+  background-repeat: no-repeat;
+}
+
+#b06 {
+  background-image: url(img/fondo14.png);
+  background-size:150%;
+  background-repeat: no-repeat;
+}

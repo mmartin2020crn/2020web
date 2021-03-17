@@ -1,0 +1,182 @@
+div {
+	font-size: 12rem;
+	color: white;
+	baseline-shift: super;
+	line-height: 10rem;
+}
+
+div{
+  transition: 1s;
+  opacity: 100%;
+}
+
+.cuadro {
+		width: 10rem;
+	  height: 10rem;
+  	margin: 0 auto;
+	  perspective: 1000px;
+	  perspective-origin: 5rem;
+	  float: left;
+}
+
+.cub{
+	width: 10rem;
+  margin: 0 auto;
+	transform-style: preserve-3d;
+	transform: translateZ(-100px);
+	transform-origin: center;
+	transition: 1s;
+}
+
+.cub:hover{
+	transform: rotateY(65deg);
+	transform-origin: right;
+}
+
+
+.frontal {
+  width: 10rem;
+  height: 10rem;
+  background: #c653c6;
+
+  }
+
+.dreta  {
+  width: 10rem;
+  height: 10rem;
+  background: red;
+  transform: translateX(10rem) translateY(-20rem) rotateY(90deg);
+  transform-origin: left;
+}
+
+
+.esquerra {
+  width: 10rem;
+  height: 10rem;
+  background: #ffb3d9;
+  transform: translateY(-10rem) translateX(-10rem) rotateY(-90deg);
+  transform-origin: right;
+}
+
+.darrere{
+  width: 10rem;
+  height: 10rem;
+  background: #ecb3ff;
+  transform: translateX(0rem) translateY(-30rem) translateZ(-10rem);
+  transform-origin: top;
+
+}
+
+.cuadro2 {
+		width: 10rem;
+	  height: 10rem;
+  	margin: 0 auto;
+	  perspective: 1000px;
+	  perspective-origin: 5rem;
+	  float: left;
+}
+
+  .cub2 {
+	width: 10rem;
+  margin: 0 auto;
+	transform-style: preserve-3d;
+	transform: translateZ(-100px);
+	transform-origin: center;
+	transition: 1s;
+}
+
+.cub2:hover{
+	transform: rotateY(65deg);
+	transform-origin: right;
+}
+
+
+.frontal2 {
+  width: 10rem;
+  height: 10rem;
+  background: #ff9966;
+
+  }
+
+.dreta2 {
+  width: 10rem;
+  height: 10rem;
+  background: red;
+  transform: translateX(10rem) translateY(-20rem) rotateY(90deg);
+  transform-origin: left;
+}
+
+
+.esquerra2  {
+  width: 10rem;
+  height: 10rem;
+  background: #ffcc66;
+  transform: translateY(-10rem) translateX(-10rem) rotateY(-90deg);
+  transform-origin: right;
+}
+
+.darrere2 {
+  width: 10rem;
+  height: 10rem;
+  background: #ecb3ff;
+  transform: translateX(0rem) translateY(-30rem) translateZ(-10rem);
+  transform-origin: top;
+
+}
+
+.cuadro3 {
+		width: 10rem;
+	  height: 10rem;
+  	margin: 0 auto;
+	  perspective: 1000px;
+	  perspective-origin: 5rem;
+	  float: left;
+}
+
+  .cub3 {
+	width: 10rem;
+  margin: 0 auto;
+	transform-style: preserve-3d;
+	transform: translateZ(-100px);
+	transform-origin: center;
+	transition: 1s;
+}
+
+.cub3:hover{
+	transform: rotateY(65deg);
+	transform-origin: right;
+}
+
+
+.frontal3 {
+  width: 10rem;
+  height: 10rem;
+  background: #aaff80;
+
+  }
+
+.dreta3 {
+  width: 10rem;
+  height: 10rem;
+  background: red;
+  transform: translateX(10rem) translateY(-20rem) rotateY(90deg);
+  transform-origin: left;
+}
+
+
+.esquerra3  {
+  width: 10rem;
+  height: 10rem;
+  background: #66cc00;
+  transform: translateY(-10rem) translateX(-10rem) rotateY(-90deg);
+  transform-origin: right;
+}
+
+.darrere3 {
+  width: 10rem;
+  height: 10rem;
+  background: #ecb3ff;
+  transform: translateX(0rem) translateY(-30rem) translateZ(-10rem);
+  transform-origin: top;
+
+}

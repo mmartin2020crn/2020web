@@ -1,0 +1,170 @@
+.p01{
+   width:100px;
+   height:100px;
+   background-color:#ffb3d1;
+   border-radius: 0 100px;
+   position: absolute;
+   transform: rotate(0deg);
+   transform-origin: right bottom;
+
+}
+.p02{
+   width:100px;
+   height:100px;
+   background-color:#ffcccc;
+   border-radius: 0 100px;
+   position: absolute;
+   transform: rotate(30deg);
+   transform-origin: right bottom;
+
+}
+
+.p03{
+   width:100px;
+   height:100px;
+   background-color:#bb99ff;
+   border-radius: 0 100px;
+   position: absolute;
+   transform: rotate(60deg);
+   transform-origin: right bottom;
+
+}
+
+.p04{
+   width:100px;
+   height:100px;
+   background-color:#9999ff;
+   border-radius: 0 100px;
+   position: absolute;
+   transform: rotate(90deg);
+   transform-origin: right bottom;
+
+}
+
+.p05{
+   width:100px;
+   height:100px;
+   background-color:#99ccff;
+   border-radius: 0 100px;
+   position: absolute;
+   transform: rotate(120deg);
+   transform-origin: right bottom;
+
+}
+
+.p06{
+   width:100px;
+   height:100px;
+   background-color:#80d4ff;
+   border-radius: 0 100px;
+   position: absolute;
+   transform: rotate(150deg);
+   transform-origin: right bottom;
+
+}
+
+.p07{
+   width:100px;
+   height:100px;
+   background-color:#80ffff;
+   border-radius: 0 100px;
+   position: absolute;
+   transform: rotate(180deg);
+   transform-origin: right bottom;
+
+}
+
+.p08{
+   width:100px;
+   height:100px;
+   background-color:#80ffd4;
+   border-radius: 0 100px;
+   position: absolute;
+   transform: rotate(210deg);
+   transform-origin: right bottom;
+
+}
+
+.p09{
+   width:100px;
+   height:100px;
+   background-color:#66ffc2;
+   border-radius: 0 100px;
+   position: absolute;
+   transform: rotate(240deg);
+   transform-origin: right bottom;
+
+}
+
+.p10{
+   width:100px;
+   height:100px;
+   background-color:#33ff99;
+   border-radius: 0 100px;
+   position: absolute;
+   transform: rotate(270deg);
+   transform-origin: right bottom;
+
+}
+
+.p11{
+   width:100px;
+   height:100px;
+   background-color:#eb99ff;
+   border-radius: 0 100px;
+   position: absolute;
+   transform: rotate(300deg);
+   transform-origin: right bottom;
+
+}
+
+.p12{
+   width:100px;
+   height:100px;
+   background-color:#ecb3ff;
+   border-radius: 0 100px;
+   position: absolute;
+   transform: rotate(330deg);
+   transform-origin: right bottom;
+
+}
+
+.cor{
+  width: 50px;
+  height: 50px;
+  background-color: #ffffb3;
+  border-radius:50%;
+  position:absolute;
+  left:75px;
+  top: 75px;
+
+}
+
+.flor{
+  width:250px;
+  height:250px;
+  position:absolute;
+  left: 200px;
+  top: 200px;
+  transform:rotate(0deg);
+  animation:molino 6s infinite reverse linear,  intermitent 2s infinite alternate linear;
+  transform-origin: 100px 100px;
+}
+
+@keyframes molino{
+  from{
+    transform:rotate(0deg);
+  }
+  to{
+    transform:rotate(360deg);
+  }
+}
+
+@keyframes intermitent {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity:2;
+	}
+}
