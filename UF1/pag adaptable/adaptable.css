@@ -1,0 +1,32 @@
+#superior{
+  height: 3rem;
+  background:purple;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+}
+
+#contingut {
+  height:;
+  background: orange;
+  padding: 1rem;
+}
+
+#inferior {
+  height: 3rem;
+  background: violet;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+p{
+  background: red;
+  font-size: 3rem;
+}
+body{
+  margin: 0;
+}
